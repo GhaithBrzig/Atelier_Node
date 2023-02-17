@@ -46,6 +46,7 @@ router.delete('/:id', (req, res, next) => {
     });
 });
 
+
 // PUT (update) a contact
 router.put('/:id', (req, res, next) => {
     const contactId = req.params.id;
@@ -62,8 +63,6 @@ router.put('/:id', (req, res, next) => {
         }
     });
 });
-
-
 // GET a specific contact by ID
 router.get('/:id', (req, res, next) => {
     const contactId = req.params.id;
